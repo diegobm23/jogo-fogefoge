@@ -86,9 +86,3 @@ void liberarmapa(MAPA* m) {
 
   free(m->matriz);
 }
-
-void imprimirmapa(MAPA* m) {
-  for (int i = 0; i < 5; i++) {
-    printf("%s\n", m->matriz[i]);
-  }
-}
